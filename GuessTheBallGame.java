@@ -1,6 +1,4 @@
-import java.io.BufferedReader;
 import java.io.IOException;
-import java.io.InputStreamReader;
 import java.util.Scanner;
 
 public class GuessTheBallGame {
@@ -39,6 +37,8 @@ public class GuessTheBallGame {
 
         //Using Scanner class
         Scanner sc = new Scanner(System.in);
+
+        System.out.println("Enter the String:");
         String inputStr = sc.nextLine();
 
         String input [] = inputStr.split("[,]");
@@ -52,7 +52,6 @@ public class GuessTheBallGame {
         }
 
         System.out.println(guessTheBall(n, array));
-        inputStr.
         
 
     }

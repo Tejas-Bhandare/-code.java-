@@ -1,27 +1,18 @@
+
+
 public class Demo {
 
-  public static void main(StringOps[] ars) {
- 
-    Main ob = new Main();
+  public static void main(String[] ars) {
 
-    ob.printMessage(5);
+    String str1 = "Tejas Bhandare";
+    string size = str;
 
+    StringBuilder sb = new StringBuilder();
+
+    sb = str1;
+
+    while()
   }
 
-}
-
-class Main {
-
-  public void printMessage(int message) {
-
-    System.out.println("Message primitive: " + message);
-
-  }
-
-  public void printMessage(Integer message) {
-
-    System.out.println("Message object: " + message);
-
-  }
 
 }
